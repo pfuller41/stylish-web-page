@@ -1,0 +1,122 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  height: 100%;
+  width: 100%;
+  background-image: url("../imgs/bee.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 0;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(5, 20, 5, 0.77);
+  opacity: 0.3;                
+}
+
+.content {
+  position: relative;
+  top: 3%;
+}
+
+.container-one {
+  background-color: rgba(255, 255, 255, 0.87);
+  margin-left: 65rem;
+  margin-right: 20rem;
+  margin-top: 0;
+  border: 1px black solid;
+}
+
+.container-two {
+  background-color: rgba(255, 255, 255, 0.87);
+  margin-left: 15rem;
+  margin-right: 72rem;
+  border: 1px black solid;
+}
+
+.content-row-one {
+  padding: 3rem 2rem 0 2rem;
+  width: 90%;
+}
+
+.content-row-two {
+  padding: 0 2rem 0 2rem;
+  width: 90%;
+}
+
+.content-row-three {
+  padding: 0rem 2rem 3rem 2rem;
+  width: 90%;
+}
+
+.content-row-four {
+  width: 90%;
+  padding: 0 0 0 2.5rem;
+}
+
+.intro-heading-1 {
+  color: rgba(0, 0, 0, 1);
+  margin-top: 3rem;
+  margin-left: 22rem;
+  margin-right: 78rem;
+  font-family: 'Bilbo', cursive;
+  font-size: 6rem;
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.3), 0px -5px 35px rgba(255,255,255,0.2);
+}
+
+.intro-heading-2 {
+  margin-left: 5rem;
+  padding-top: 2rem;
+} 
+
+.extra,
+a:link,
+a:visited,
+a:hover,
+a:active  {
+  margin-left: 5rem;
+  color: rgba(0, 0, 0, 1);
+  padding-bottom: 2rem;
+}
+
+.help-container {
+  margin-left: 25rem;
+  margin-right: 25rem;
+}
+
+.help-heading {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.li-heading {
+  padding-top: 2rem;
+}
+
+img {
+    float: right;
+}
+
+.home {
+  text-align: center;
+  margin-top: 6rem;
+}
+
